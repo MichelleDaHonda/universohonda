@@ -172,10 +172,7 @@ video{
     
 }
 
-.motocicletas img:hover{
-    transform: scale(1.4);
-    transition: all 0.6s ease;
-}
+
 
 .motocicletas p{
     font-size: 80px;
