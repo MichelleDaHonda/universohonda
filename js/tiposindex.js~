@@ -1,0 +1,6 @@
+const sportimg = document.getElementById('sportimg');
+
+
+sportimg.onmouseover = function(){
+    const psport = document.getElementById('psport');
+}
