@@ -1,7 +1,0 @@
-
-
-const items = document.querySelector('img');
-
-items.onmouseover = function(){
-    items.style.filter = 'scale(1.1)';
-}
