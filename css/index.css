@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Anybody:wght@400;500;600;700;800;900&family=Bree+Serif&family=Cinzel:wght@400;500;600;700;800;900&family=Combo&family=Great+Vibes&family=Inter:wght@400;500;600;700;800;900&family=Libre+Franklin:wght@400;500;600;700;800;900&family=Monoton&family=Nanum+Pen+Script&family=Oswald:wght@400;500;600;700&family=Passion+One:wght@400;700;900&family=Permanent+Marker&family=Roboto+Slab:wght@400;500;600;700;800;900&family=Sanchez&family=Titan+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    height: 1700px;
+    font-family: Roboto, sans-serif;
+}
+
+#nav{
+    background: white;
+    
+}
+
+#nav a{
+    color: #5b5c5c;
+    
+}
+
+
+
+.cbrbg{
+    width: 100%;
+    height: 100vh;
+   
+    
+  
+}
+
+videobackground{
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
+video{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.subnav{
+    
+    
+    height:70px;
+    
+    width: 100%;
+    
+}
+
+#cobremenu{
+    height: 70px;
+}
+
+
+
+#submenu{
+    background: #636363;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    z-index: 101;
+    transition: all 0.2 ease;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+
+
+#submenu li{
+    border-right: 0.1px solid white;
+    padding-right: 15px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+#submenu li:nth-child(1){
+    margin-left: 15px;
+}
+
+
+#submenu li:nth-child(3){
+    border-right: none;
+}
+
+#submenu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    display: block;
+}
+
+
+
+.cbr-motos{
+    display: flex;
+    position: relative;
+    left: 625px;
+    top: -120px;
+    z-index: 101;
+    width: 400px;
+    
+}
+
+.cbr-motos a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#cbr650{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#fireblade{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.dentroimg{
+    
+    width: 350px;
+    position: absolute;
+    height: 369px;
+    left: 120px;
+    
+    top: 300px;
+}
+
+.dentroimg h1, h2, a{
+    color: white;
+    text-decoration: none;
+}
+
+.dentroimg a{
+    background: #cc0000;
+    padding: 14px 38px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.motocicletas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+}
+
+.motocicletas img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.6s ease;
+    
+}
+
+.motocicletas img:hover{
+    transform: scale(1.4);
+    transition: all 0.6s ease;
+}
+
+.motocicletas p{
+    font-size: 80px;
+    position: absolute;
+    top: 750px;
+    color: white;
+    font-weight: 700;
+    display: none;
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #000;
+}
+
+.mototipo{
+    overflow: hidden;
+}
+
+
+
+.vendedora{
+    width: 100%;
+    height: 600px;
+    background: yellow;
+    margin-top: 25px;
+}
