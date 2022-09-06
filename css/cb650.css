@@ -1,0 +1,639 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    height: 1700px;
+    font-family: Roboto, sans-serif;
+}
+
+#nav{
+    background: white;
+    
+}
+
+#nav a{
+    color: #5b5c5c;
+    
+}
+
+
+
+.cbrbg{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../img/cb650bh.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    position: relative;
+    z-index: 99;
+}
+
+.subnav{
+   
+    
+    height:70px;
+    
+    width: 100%;
+    
+}
+
+#cobremenu{
+    height: 70px;
+}
+
+
+
+#submenu{
+    background: #636363;
+    width: 100%;
+    height: 70px;
+    
+    
+    transition: all 0.2 ease;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+    
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+
+
+#submenu li{
+    border-right: 0.1px solid white;
+    padding-right: 15px;
+    height: 25px;
+    margin-top: 6px;
+}
+
+#submenu li:nth-child(1){
+    margin-left: 15px;
+}
+
+
+#submenu li:nth-child(3){
+    border-right: none;
+}
+
+#submenu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    display: block;
+}
+
+
+
+.cbr-motos{
+    display: flex;
+    position: relative;
+    left: 320px;
+    top: -120px;
+    
+    width: 400px;
+    
+}
+
+.cbr-motos a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#cbr650{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#fireblade{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.dentroimg{
+    
+    width: 350px;
+    position: absolute;
+    height: 369px;
+    left: 120px;
+    position: sticky;
+    top: 220px;
+}
+
+.dentroimg h1, h2, a{
+    color: white;
+    text-decoration: none;
+}
+
+.dentroimg a{
+    background: #cc0000;
+    padding: 14px 38px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.cbrbg2{
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    position: sticky;
+    top:280px;
+    
+ 
+}
+
+.subnav2{
+    
+    
+    top: 76px;
+    height:80px;
+    z-index: 1000;
+    width: 100%;
+    
+}
+
+#cobremenu{
+    height: 70px;
+}
+
+
+
+#submenu2{
+    background: #636363;
+    width: 100%;
+    height: 70px;
+    
+    
+    transition: all 0.2 ease;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+
+
+
+
+
+#submenu2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    display: block;
+    font-size: 14px;
+}
+
+#submenu2 a:hover{
+    color: black;
+}
+
+
+
+.preçocbr{
+    position: absolute;
+    top: -200px;
+    z-index: 1;
+    width: 100%;
+    background: black;
+    height: 200px;
+}
+
+.subpreço div p{
+    color: #3d3d3e
+    
+}
+
+.subpreço{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin-top: 50px;
+    
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.marginp{
+    margin-bottom: 10px;
+    
+}
+
+
+.cbr-main{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#tittle{
+   display: block;
+    height: 230px;
+    text-align: center;
+}
+#tittle h2{
+    color: #3d3d3e;
+    font-size: 60px;
+}
+
+#tittle p{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+
+.galeria{
+    width:100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    transition: all 1.8s ease;
+    
+}
+
+.galeria img{
+    height:300px;
+    transition: all 1.8s ease;
+}
+
+
+.galeria-itens{
+    overflow: hidden;
+    transition: all 1.8s ease;
+}
+
+
+.galeria-foto{
+    overflow: hidden;
+    
+    height: 300px;
+}
+
+
+
+.design{
+    
+    width: 100%;
+    height: 800px;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+#design-bg{
+
+    background-image:url("../img/cb650design1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 9;
+    height: 800px;
+    width: 100%;
+    
+}
+
+.design h2{
+    position: relative;
+    left: 150px;
+    top: 80px;
+    
+    width: 200px;
+    font-size: 50px;
+}
+
+.design ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    
+    
+}
+
+.design p{
+    display: none;
+    margin-top: 80px;
+    color: white;
+    width: 500px;
+    line-height: 1.8;
+    position: absolute;
+    z-index: 100;
+    
+    
+}
+
+#p-ciclistica{
+    position: absolute;
+    left: 0px;
+   
+}
+
+#p-detalhes{
+    position: absolute;
+    left: 0px;
+}
+
+.btn-design{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+    
+}
+
+
+.seguranca{
+    height: 800px;
+    background: #f2f4f8;
+}
+
+
+#perc {
+    
+    top: 10px;
+    left: 10px;
+    color: white;
+    background-color: tomato;
+    padding: 5px;
+}
+
+.seguranca{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.seguranca ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.seguranca  p{
+    display: none;
+    margin-top: 50px;
+    left: 600px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #3d3d3e;
+}
+
+
+.lado-direito{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.seguranca h2{
+    font-size: 50px;
+    color: #3d3d3e;
+}
+
+
+.btn-seg{
+    background:none;
+    border: none;
+    font-size: 18px;
+    color: #3d3d3e;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.mecanica{
+    height: 800px;
+    background: #f2f4f8;
+}
+
+
+
+.mecanica{
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.mecanica ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.mecanica  p{
+    display: none;
+    margin-top: 50px;
+    left: 600px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #3d3d3e;
+}
+
+
+.lado-direito2{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.mecanica h2{
+    font-size: 50px;
+    color: #3d3d3e;
+}
+
+
+.btn-mec{
+    background:none;
+    border: none;
+    font-size: 18px;
+    color: #3d3d3e;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.perf{
+    height: 800px;
+    background: #f2f4f8;
+}
+
+
+
+.perf{
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+.perf ul{
+    list-style: none;
+    display: flex;
+}
+
+
+.perf  p{
+    display: none;
+    margin-top: 50px;
+    left: 600px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #3d3d3e;
+}
+
+
+.lado-direito3{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.perf h2{
+    font-size: 50px;
+    color: #3d3d3e;
+}
+
+
+.btn-perf{
+    background:none;
+    border: none;
+    font-size: 18px;
+    color: #3d3d3e;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.tec{
+    background: #f2f4f8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    width: 100%;
+    height: 1200px;
+    margin-top: -100px;
+}
+
+
+#titulotec{
+    grid-column: 1/5;
+}
+
+.tec img{
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+
+.tec p{
+    margin-left: 10px;
+    line-height: 2;
+    padding: 20px;
+    text-align: justify;
+    font-weight: 400;
+    color: #4d4d4f;
+}
+
+
+.espec{
+    width: 100%;
+    height: 600px;
+    background: #e9e9e9;
+   
+}
+
+.espec h2{
+    font-size: 50px;
+    color: #3d3d3e;
+    text-align: center;
+    
+}
+
+.espec ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+#pmotor, #psis, #pcap, #pdim, #pchassi{
+    display: none;
+    left: 150px;
+    margin-top: 50px;
+    line-height: 2;
+    
+}
+
+.btn-espec{
+    border:none;
+    background: none;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+}
